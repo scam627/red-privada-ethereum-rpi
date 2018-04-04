@@ -51,14 +51,14 @@ class Blockchain{
 	}
 }
 
-let savjeeCoin = new Blockchain();
-savjeeCoin.addBlock(new Block(1, "20/03/2018", { amount: 4 }));
-savjeeCoin.addBlock(new Block(2, "28/03/2018", {amount: 10 }));
+let stivenCoin = new Blockchain();
+stivenCoin.addBlock(new Block(1, "20/03/2018", { amount: 4 }));
+stivenCoin.addBlock(new Block(2, "28/03/2018", {amount: 10 }));
 
-console.log("is valid : " + savjeeCoin.isChainValid());
-//console.log(JSON.stringify(savjeeCoin, null, 4))
+console.log("is valid : " + stivenCoin.isChainValid());
+//console.log(JSON.stringify(stivenCoin, null, 4))
 
-savjeeCoin.chain[1].data={ amount: 100 };
+stivenCoin.chain[1].data={ amount: 100 };
 
-console.log("is valid : " + savjeeCoin.isChainValid());
-//console.log(JSON.stringify(savjeeCoin, null, 4))
+console.log("is valid : " + stivenCoin.isChainValid());
+//console.log(JSON.stringify(stivenCoin, null, 4))
