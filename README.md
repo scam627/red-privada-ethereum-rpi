@@ -1,2 +1,3 @@
-# Creando una red privada block-chain orientada a IoT
-Create a private Ethereum blockchain with IoT
+# Creando una red privada blockchain
+
+Create a private blockchain net with Javasrcipt
